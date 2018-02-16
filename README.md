@@ -43,18 +43,21 @@ It attempts to detect (with high error rate) the 20 classes of objects in the Pa
 - tv/monitor. The network only outputs one predicted bounding box at a time for now. The code can and will be extended in the future to output several predictions.
 
 
-GPUs are not currently supported by TensorFlow on Android. If you have a decent Android device you will have around two frames per second of processed images. 
+
 
 Here is a [video](http://youtu.be/EhMrf4G5Wf0) showing a small demo of the app.
+
+**Credits:**
 
 *Nataniel Ruiz<br>
 School of Interactive Computing<br>
 Georgia Institute of Technology* 
 
-Credits:
 App launch icon made by [Freepik](http://www.freepik.com) from [Flaticon](http://www.flaticon.com) is licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/).
 
-Disclaimer:
+**Note on usability:**
+
+GPUs are not currently supported by TensorFlow on Android. If you have a decent Android device you will have around two frames per second of processed images.
 The app is hardcoded for 20 classes and for the tiny-yolo network final output layer. You can check the following code if you want to change this:
 
 https://github.com/natanielruiz/android-yolo/blob/master/app/src/main/java/org/tensorflow/demo/TensorflowClassifier.java
