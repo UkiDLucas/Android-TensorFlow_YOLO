@@ -21,31 +21,28 @@ The **standalone APK** has been released and you can find it [here](https://driv
 
 **Android YOLO** is an Android Studio project and usable out of the box.
 It attempts to detect (with high error rate) the 20 classes of objects in the Pascal VOC dataset:
-- aeroplane,
-- bicycle,
-- bird,
-- boat,
-- bottle,
-- bus,
-- car,
-- cat,
-- chair,
-- cow,
-- dining table,
-- dog,
-- horse,
-- motorbike,
-- person,
-- potted plant,
-- sheep,
-- sofa,
+http://host.robots.ox.ac.uk/pascal/VOC/voc2012/
+
+- aeroplane
+- bicycle
+- bird
+- boat
+- bottle
+- bus
+- car
+- cat
+- chair
+- cow
+- dining table
+- dog
+- horse
+- motorbike
+- person
+- potted plant
+- sheep
+- sofa
 - train
-- tv/monitor. The network only outputs one predicted bounding box at a time for now. The code can and will be extended in the future to output several predictions.
-
-
-
-
-
+- tv/monitor
 
 **Credits:**
 
@@ -58,6 +55,7 @@ App launch icon made by [Freepik](http://www.freepik.com) from [Flaticon](http:/
 **Note on usability:**
 
 - Here is a [video](http://youtu.be/EhMrf4G5Wf0) showing a small demo of the app.
+- The network only outputs one predicted bounding box at a time for now. The code can and will be extended in the future to output several predictions.
 - GPUs are not currently supported by TensorFlow on Android. If you have a decent Android device you will have around two frames per second of processed images.
 - The app is hardcoded for 20 classes and for the tiny-yolo network final output layer. You can check the following code if you want to change this:
 
