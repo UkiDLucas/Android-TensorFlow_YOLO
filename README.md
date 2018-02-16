@@ -45,11 +45,11 @@ It attempts to detect (with high error rate) the 20 classes of objects in the Pa
 
 
 
-Here is a [video](http://youtu.be/EhMrf4G5Wf0) showing a small demo of the app.
+
 
 **Credits:**
 
-*Nataniel Ruiz<br>
+*Nataniel Ruiz,<br>
 School of Interactive Computing<br>
 Georgia Institute of Technology* 
 
@@ -57,8 +57,9 @@ App launch icon made by [Freepik](http://www.freepik.com) from [Flaticon](http:/
 
 **Note on usability:**
 
-GPUs are not currently supported by TensorFlow on Android. If you have a decent Android device you will have around two frames per second of processed images.
-The app is hardcoded for 20 classes and for the tiny-yolo network final output layer. You can check the following code if you want to change this:
+- Here is a [video](http://youtu.be/EhMrf4G5Wf0) showing a small demo of the app.
+- GPUs are not currently supported by TensorFlow on Android. If you have a decent Android device you will have around two frames per second of processed images.
+- The app is hardcoded for 20 classes and for the tiny-yolo network final output layer. You can check the following code if you want to change this:
 
 https://github.com/natanielruiz/android-yolo/blob/master/app/src/main/java/org/tensorflow/demo/TensorflowClassifier.java
 
