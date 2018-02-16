@@ -5,14 +5,19 @@
 
 [Source project](https://github.com/miyosuda/TensorFlowAndroidDemo)
 
-**tested**
-- Working on: Google Pixel C tablet
-- Not working on Intel x86
+
 
 **Before you run it**
-To use this demo first clone the repository. Download the TensorFlow YOLO [model](https://drive.google.com/file/d/0B2fFW2t9-qW3MVJlQ29LRzlLT2c/view?usp=sharing) and put it in android-yolo/app/src/main/assets. Then open the project on Android Studio. Once the project is open you can run the project on your Android device using the Run 'app' command and selecting your device.
+
+- Clone the repository.
+- Download the [TensorFlow YOLO model](https://drive.google.com/file/d/0B2fFW2t9-qW3MVJlQ29LRzlLT2c/view?usp=sharing) and put it in **android-yolo/app/src/main/assets**.
+- Open the project on Android Studio.
+- Run the project on your Android device using the Run 'app' command and selecting your device.
 The **standalone APK** has been released and you can find it [here](https://drive.google.com/open?id=0B2fFW2t9-qW3LWFDNXVHUE9rV3M). Just open your browser on your Android device and download the APK file. When the file has been downloaded it should begin installing on your device after you grant the required permissions.
 
+**tested on**
+- Working on: Google Pixel C tablet
+- Not working on Intel x86
 
 **Android YOLO** is an Android Studio project and usable out of the box.
 It attempts to detect (with high error rate) the 20 classes of objects in the Pascal VOC dataset:
